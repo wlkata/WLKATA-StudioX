@@ -28,6 +28,13 @@
       "description": "Jog robot axes with customizable keyboard shortcuts and on-screen controls.",
       "repository": "https://github.com/wlkata/WLKATA-StudioX-keyboard-control",
       "depends": []
+    },
+    {
+      "name": "arduino",
+      "displayName": "Arduino",
+      "description": "Build Arduino programs with Blockly, manage boards and libraries, and compile and upload to your device.",
+      "repository": "https://github.com/wlkata/WLKATA-StudioX-arduino",
+      "depends": []
     }
   ]
 }
