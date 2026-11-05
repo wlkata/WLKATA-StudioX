@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "extensions": [
+    {
+      "name": "camera",
+      "displayName": "Camera",
+      "description": "Connect cameras, preview live video, and capture images in Blockly programs.",
+      "repository": "https://github.com/wlkata/WLKATA-StudioX-camera",
+      "depends": []
+    },
+    {
+      "name": "cv-pick",
+      "displayName": "CV Pick",
+      "description": "Detect objects with computer vision and build camera-guided pick-and-place workflows.",
+      "repository": "https://github.com/wlkata/WLKATA-StudioX-cv-pick",
+      "depends": ["camera"]
+    },
+    {
+      "name": "drawing",
+      "displayName": "Drawing",
+      "description": "Draw freehand paths or Chinese characters and replay them with your robotic arm.",
+      "repository": "https://github.com/wlkata/WLKATA-StudioX-drawing",
+      "depends": []
+    },
+    {
+      "name": "keyboard-control",
+      "displayName": "Keyboard Control",
+      "description": "Jog robot axes with customizable keyboard shortcuts and on-screen controls.",
+      "repository": "https://github.com/wlkata/WLKATA-StudioX-keyboard-control",
+      "depends": []
+    }
+  ]
+}
